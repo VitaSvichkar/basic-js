@@ -20,8 +20,7 @@ function createDreamTeam(members) {
     names.push(members[i].trim().at(0).toUpperCase());
   }
   names = names.sort().join('');
-  if (typeof names === 'string')
- return names;
+    return names;
 }
 createDreamTeam(['Matt', 'Ann', 'Dmitry', 'Max']);
 
